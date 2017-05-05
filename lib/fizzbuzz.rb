@@ -1,15 +1,11 @@
 def fizzbuzz(number)
     if
-      number == 3
+      number % 3 == 0
       'fizz'
     elsif
-      number == 5
-      "buzz"
-    elsif
-      number == 10
+      number % 5 == 0
       "buzz"
     else
-      number == 4
-      "4"
+    "#{number}"
     end
 end
