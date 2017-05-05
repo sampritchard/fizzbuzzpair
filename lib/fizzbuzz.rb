@@ -6,6 +6,6 @@ def fizzbuzz(number)
       number % 5 == 0
       "buzz"
     else
-    "#{number}"
+    "#{number}
     end
 en
